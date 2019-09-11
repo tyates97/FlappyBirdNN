@@ -32,10 +32,6 @@ class Game{
     stroke(46,70,0);
     fill(46,70,0);
     rect(-2, height - floorHeight, width + 2, floorGrassLayerHeight);            //making the grass layer of the ground
-    
-    //stroke(125,68,39);                                                         //having one rectangle   
-    //fill(125,68,39);
-    //rect(-2, height - floorHeight, width + 2, floorHeight)
   } 
  
 //------------------------------------------------------------------------------------------------------------------------------

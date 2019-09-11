@@ -39,14 +39,3 @@ void draw() {
   pipeC.runPipe();
   game.runGame();
 }
-
-//------------------------------------------------------------------------------------------------------------------------------  
-
-  //TODO: add restart button when you die
-  //TODO: add a high score feature
-  //TODO: make jumping similar to game
-  //TODO: make dimensions of screen/bird/pipes same as game
-  //TODO: bird's collision moves as a square
-  //TODO: add images
-  //TODO: make bird rotate when jumping like game
-  //TODO: NEURAL NET BABY
