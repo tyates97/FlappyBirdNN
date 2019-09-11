@@ -127,8 +127,8 @@ class Bird{
   
   float[] createNeuronLayer(){
      neuronLayer[0] = calculateNearestPipe().xPos - xPos;          // horizontal distance to nearest pipe
-     neuronLayer[1] = calculateNearestPipe().pipe1Height - yPos;    // vertical distance to top pipe
-     neuronLayer[2] = calculateNearestPipe().pipe2Height - yPos;    //vertical distance to bottom pipe
+     neuronLayer[1] = -(calculateNearestPipe().pipe1Height - yPos);    // vertical distance to top pipe
+     neuronLayer[2] = height - floorHeight - calculateNearestPipe().pipe2Height - yPos;    //vertical distance to bottom pipe
      neuronLayer[3] = speedY;
      neuronLayer[4] = distanceFromFloor;
      
